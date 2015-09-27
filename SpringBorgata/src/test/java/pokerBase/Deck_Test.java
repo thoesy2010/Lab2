@@ -8,6 +8,10 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
+
+
 public class Deck_Test {
 
 	@BeforeClass
@@ -28,10 +32,12 @@ public class Deck_Test {
 
 	@Test
 	public void TestFullDeck() {
-		//	I put this test in so it would pass...
-		//TODO: Code a unit test to make sure calling the deck constructor passes back 52 cards in a deeck.
-		
-		assertTrue(1==1);
+		// I put this test in so it would pass...
+
+		// TODO: Code a unit test to make sure calling the deck constructor
+		// passes back 52 cards in a deck
+		Deck tester = new Deck();	
+		assertTrue("cards",tester.getTotalCards()==52);
 	}
 
 }

@@ -20,7 +20,7 @@ public class Deck {
 
 	public Deck() {
 
-		//	Create an ArrayList of Cards, add each card
+		//	Create an Arra yList of Cards, add each card
 		ArrayList<Card> MakingDeck = new ArrayList<Card>();
 		for (short i = 0; i <= 3; i++) {
 			eSuit SuitValue = eSuit.values()[i];			
